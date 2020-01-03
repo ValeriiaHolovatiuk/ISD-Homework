@@ -207,7 +207,11 @@ namespace Abstraction_3._1
                         finishWorkWithFile = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine();
                         checking = 0;
-                        fileType = "";
+
+                        if(finishWorkWithFile == 2)
+                        {
+                            fileType = "";
+                        }
                     }
                     else
                     {
